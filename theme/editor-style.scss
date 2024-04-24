@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:500,600|Roboto:300,400,700");
+@import url("https://use.fontawesome.com/releases/v5.15.2/js/all.js");
+
+.block-editor-block-list__layout.is-root-container {
+    @import "custom";
+
+    /*     .wp-block-uagb-faq .uagb-icon svg {
+        display: flex;
+        width: auto !important;
+    }
+        [data-type="genesis-blocks/gb-accordion"] {
+            margin: 0;
+        }
+    
+        .gb-block-accordion {
+            margin-bottom: 0;
+    
+            &:active, &:focus-within {
+                .gb-accordion-text {
+                    display: block;
+                }
+            }
+    
+            .gb-accordion-title {
+                margin-bottom: 5px !important;
+                padding: 0;
+            }
+    
+            .gb-accordion-text {
+                display: none;
+            }
+        } */
+}
+
+.block-editor-block-list__layout .block-editor-block-list__block:after {
+    position: static;
+}
+
+.block-editor-block-list__layout .wp-block {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.block-editor-block-list__layout.is-root-container {
+    max-width: 840px;
+    margin: 2em auto 28px;
+    margin-top: 150px;
+}

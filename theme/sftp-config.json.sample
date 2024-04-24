@@ -1,0 +1,28 @@
+{
+    "type": "sftp",
+    
+    // @todo: UPDATE THIS SECTION FOR PROJECT
+    "host": "PROJECT.sftp.wpengine.com",
+    "user": "",
+    "password": "",
+    "remote_path": "/wp-content/themes/PROJECT/",
+
+    // END UPDATES
+
+    "port": "2222",
+    "save_before_upload": true,
+    "upload_on_save": true,
+    "sync_down_on_open": false,
+    "sync_skip_deletes": false,
+    "sync_same_age": true,
+    "confirm_downloads": false,
+    "confirm_sync": true,
+    "confirm_overwrite_newer": false,
+    "ignore_regexes": [
+        "\\.sublime-(project|workspace)", "sftp-config(-alt\\d?)?\\.json",
+        "sftp-settings\\.json", "/venv/", "\\.svn/", "\\.hg/", "\\.git/",
+        "\\.bzr", "_darcs", "CVS", "\\.DS_Store", "Thumbs\\.db", "desktop\\.ini"
+    ],
+    "connect_timeout": 30,
+    "sftp_flags": ["-o PreferredAuthentications=password"],
+}

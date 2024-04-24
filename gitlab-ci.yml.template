@@ -1,0 +1,37 @@
+image: node:latest
+
+variables:
+  THEME_DIR: "fivehdstarter" #### Update me!
+  WPENGINE_HOST: "fivehdstarter.sftp.wpengine.com" #### Update me!
+
+  ## Set these in GitLab ENV (protected, all environments):
+  # WPENGINE_LIVE_PASS: ""
+  # WPENGINE_LIVE_USER: ""
+
+# test:
+#   stage: test
+#   script:
+#     - npm install --production
+#     - npm test
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  cache:
+    paths:
+      - node_modules/
+  artifacts:
+    name: "${CI_PROJECT_PATH_SLUG}-job${CI_JOB_ID}"
+    paths:
+      - theme/
+    when: always
+
+deploy:
+  stage: deploy
+  script:
+    - chmod +x deploy.sh
+    - ./deploy.sh
+  only:
+    - master
