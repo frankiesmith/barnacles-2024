@@ -77,7 +77,7 @@ a {
     text-decoration: none;
   transition: .4s all;
   &:hover {
-    color: #fff;
+    color: #e5e5e5;
     transition: .4s all;
   }
 }
@@ -106,10 +106,10 @@ h4 {
 
 .button {
   text-decoration:none;
-  color:#fff;
+  color:#e5e5e5;
   display:inline-block;
   padding:8px 10px;
-  border: 1px solid #fff;
+  border: 1px solid #e5e5e5;
   transition: .4s all;
   &:hover {
     color: $dark;
@@ -124,14 +124,14 @@ h4 {
     padding: 12px 20px;
     &:hover {
       background: $dark;
-      color: #fff;
+      color: #e5e5e5;
     }
     &.dark {
       background: $dark;
       &:hover {
       background: $orange;
-      color: #fff;
-      border-color:#fff;
+      color: #e5e5e5;
+      border-color:#e5e5e5;
     }
     }
   }
@@ -177,7 +177,7 @@ h4 {
           font-size:1.3rem;
           padding:15px;
           display:block;
-              color: #fff;
+              color: #e5e5e5;
     text-decoration: none;
           cursor:pointer;
           transition:.1s all;
@@ -228,7 +228,7 @@ h4 {
       border: none;
       }
       a {
-        border: 1px solid #fff;
+        border: 1px solid #e5e5e5;
         @media(max-width:420px) {
             font-size: 1rem;
     padding: 7px;
@@ -282,7 +282,7 @@ h4 {
     span {
           display: block;
     font-size: 2.4rem;
-    color: #fff;
+    color: #e5e5e5;
       margin-bottom:5px;
       @media(max-width:630px) {
       font-size:2rem;
@@ -314,7 +314,7 @@ h4 {
 .testimonials {
   font-size:1.3rem;
   .testimonial {
-    color:#fff;
+    color:#e5e5e5;
     text-align:center;
     padding:30px;
   }
@@ -323,7 +323,7 @@ h4 {
     height: 10rem;
   }
   h3 {
-    color:#fff;
+    color:#e5e5e5;
         margin-top: 20px;
     font-weight: 800;
     font-size: 1.4rem;
@@ -345,16 +345,16 @@ h4 {
   }
 }
 .white-background {
-  background-color: #fff;
+  background-color: #e5e5e5;
 }
 
 .dark-bg {
-  background-color: $dark;
+      background-color: #424b52;
 }
 
 .transparent-dark-bg {
   background-color: rgba($dark, .9);
-  color: #fff;
+  color: #e5e5e5;
 }
 
 .background-image {
@@ -373,11 +373,10 @@ h4 {
 }
 
 .calendar {
-  background-image: url("https://assets.codepen.io/1270439/barn.jpg");
   .calendar-group {
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px dotted #fff;
+    border-bottom: 1px dotted #e5e5e5;
     &:last-child {
       border-bottom:none;
       padding-bottom:0;
@@ -441,8 +440,8 @@ iframe {
   position: relative;
   background:none;
   h2 {
-    color: #fff;
-    border-color: #fff;
+    color: #e5e5e5;
+    border-color: #e5e5e5;
         position: relative;
     z-index: 4000;
   }
@@ -489,10 +488,10 @@ input#saveForm {
     margin: 0;
     margin-top: 20px;
     background: none;
-    border: 3px solid #fff;
+    border: 3px solid #e5e5e5;
     display: inline-block;
     width: auto;
-    color: #fff;
+    color: #e5e5e5;
     font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -674,7 +673,7 @@ button#wpforms-submit-52 {
     margin-top: 110px;
     border-top: 3px solid #e7a800;
     p {
-      color: #fff;
+      color: #e5e5e5;
     text-align: center;
     margin-top: 14px;
     margin-bottom: -12px;

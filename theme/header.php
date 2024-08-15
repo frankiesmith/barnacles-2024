@@ -13,10 +13,20 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9MQHEWXME3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9MQHEWXME3');
+</script>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.cdnfonts.com/css/neutraface-text" rel="stylesheet">
   <script src="jquery-3.7.1.min.js"></script>
+  <meta name="google-site-verification" content="Hpt3luIJkvGhUHHA86gIGXJQ2RF6xSD140W_UcZ2aqw" />
 
 
   <?php wp_head(); ?>

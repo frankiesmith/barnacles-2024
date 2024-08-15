@@ -1,4 +1,4 @@
-<section id="calendar" class="calendar background-image no-pad nav-section">
+<section id="calendar" class="calendar background-image no-pad nav-section" style="background-image: url('<?php block_field( "background-image" ); ?>');">
   <div class="row">
     <div class="col-sm-12 col-lg-5 col-xl-6">
     </div>
